@@ -1,0 +1,33 @@
+Assign	:
+
+URL	: https://www.online.citibank.co.in/
+
+Title	: After completion of the transaction, the account balance is not show properly
+
+Description :
+a) Expected Behaviour : By the completion of Transaction, the amount deduction from account must be equal to amount transfered to the another account
+
+b) Actual Behaviour : After Transaction of Rs. 3000, the amount deducted from the account balanced is Rs.6000. As earlier, Account balanced was Rs.15000 and after deduction the account balance is showing Rs.9000
+
+c) Step to Reproduce the Defect:
+	1. Open Browser
+	2. Enter the url in the Browser
+	3. Click on Login Button
+	4. Provide the login Credentials and proceed to signin
+	5. Click on Banking tab
+	6. Click on Transfer Funds and then select To Other Bank Account
+	7. Click on Add New Payee.
+	8. Select Radio Button NEFT
+	9. Provide the Beneficiary Account Number
+	10. Select the Radio Button(Do you know the IFSC code of beneficiary bank?)
+	11. Provide the IFSC Code
+	12. Click on Get Bank Details
+	13. Select Beneficiary Type
+	14. Select Beneficiary Nationality
+	15. Select Account/Card Type
+	16. Provide Account/Card Number
+	17. Provide Nickname
+	18. Click Submit
+	19. Check the Terms and Condition
+	20. Click Pay
+
